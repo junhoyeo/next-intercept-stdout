@@ -1,0 +1,11 @@
+{
+  "name": "next-intercept-stdout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/junhoyeo/next-intercept-stdout",
+  "author": "Junho Yeo <i@junho.io>",
+  "license": "MIT",
+  "dependencies": {
+    "intercept-stdout": "^0.1.2"
+  }
+}
