@@ -1,4 +1,6 @@
 # next-intercept-stdout
+[![next-intercept-stdout](https://img.shields.io/npm/v/next-intercept-stdout?style=for-the-badge)](https://www.npmjs.com/package/next-intercept-stdout)
+
 Next.js plugin to intercept stdout
 
 ## Ignore `Duplicate atom key` warnings for [Recoil](https://github.com/facebookexperimental/Recoil/issues/733#issuecomment-925072943)
