@@ -3,6 +3,12 @@
 
 Next.js plugin to intercept stdout
 
+## Justification
+1. 💎 This module wraps [`intercept-stdout`](https://github.com/sfarthin/intercept-stdout) as the form of the **Next.js plugin.**
+2. 🙋🏽 Why wrap this module?
+   1. I didn't want to call a function separate from other `NextConfig` values and plugins. It makes the action look suspicious and less coupled.
+   2. In addition, `intercept-stdout` was last distributed about six years ago, so it seemed necessary to cover the implementation separately in case it no longer works.
+
 ## Ignore `Duplicate atom key` warnings for [Recoil](https://github.com/facebookexperimental/Recoil/issues/733#issuecomment-925072943)
 
 ```tsx
